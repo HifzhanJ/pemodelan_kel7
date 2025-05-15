@@ -2292,6 +2292,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[500]]></Code>
+								<Unit Class="RateUnits"><![CDATA[PER_HOUR]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[interarrivalTime]]></Name>
@@ -2319,7 +2323,7 @@
 							<Value Class="EntityCodeValue">
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
-									<Id>1747265500524</Id>
+									<Id>1747272712109</Id>
 									<ActiveObjectClass>
 										<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
 										<ClassName><![CDATA[orang]]></ClassName>
@@ -2350,7 +2354,7 @@
 									</LocationNameCode>
 									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
 									<InitializationDatabaseTableQuery>
-										<Id>1747265500523</Id>
+										<Id>1747272712108</Id>
 										<TableReference>
 										</TableReference>
 									</InitializationDatabaseTableQuery>
@@ -2462,6 +2466,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[uniform(0.3, 0.5)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -2865,6 +2873,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[uniform(7.0, 15.0)]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[recoveryDelay]]></Name>
@@ -8095,11 +8107,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Rotation>0.0</Rotation>
 					<Width>65</Width>
 					<Height>30</Height>
@@ -8387,7 +8399,7 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1746639230593</Id>
 					<Name><![CDATA[antriruang3]]></Name>
-					<X>712</X><Y>258</Y>
+					<X>712</X><Y>263</Y>
 					<Label><X>106.465</X><Y>6.112</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8473,7 +8485,7 @@
 				<QueueLine>
 					<Id>1746639230595</Id>
 					<Name><![CDATA[queueLine8]]></Name>
-					<X>712</X><Y>258</Y>
+					<X>712</X><Y>263</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -8496,7 +8508,7 @@
 				<ServicePoint>
 					<Id>1746639230597</Id>
 					<Name><![CDATA[servicePoint7]]></Name>
-					<X>742.131</X><Y>258</Y>
+					<X>742.131</X><Y>263</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -9651,11 +9663,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9664,9 +9676,9 @@
 						<Point><X>0</X><Y>85</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>85</Y><Z>0</Z></Point>
-						<Point><X>115</X><Y>85</Y><Z>0</Z></Point>
-						<Point><X>90</X><Y>85</Y><Z>0</Z></Point>
-						<Point><X>20</X><Y>85</Y><Z>0</Z></Point>
+						<Point><X>116</X><Y>85</Y><Z>0</Z></Point>
+						<Point><X>91</X><Y>85</Y><Z>0</Z></Point>
+						<Point><X>21</X><Y>85</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -9679,11 +9691,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9692,9 +9704,9 @@
 						<Point><X>116</X><Y>-1</Y><Z>0</Z></Point>
 						<Point><X>91.001</X><Y>-0.784</Y><Z>0</Z></Point>
 						<Point><X>116</X><Y>24</Y><Z>0</Z></Point>
-						<Point><X>116</X><Y>78</Y><Z>0</Z></Point>
-						<Point><X>116</X><Y>53</Y><Z>0</Z></Point>
-						<Point><X>96</X><Y>30</Y><Z>0</Z></Point>
+						<Point><X>116</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>116</X><Y>59</Y><Z>0</Z></Point>
+						<Point><X>96</X><Y>36</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -9707,11 +9719,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9723,96 +9735,96 @@
 						<Point><X>116</X><Y>-18</Y><Z>0</Z></Point>
 						<Point><X>116</X><Y>7</Y><Z>0</Z></Point>
 						<Point><X>116</X><Y>-43</Y><Z>0</Z></Point>
-						<Point><X>116</X><Y>-87</Y><Z>0</Z></Point>
-						<Point><X>116</X><Y>-62</Y><Z>0</Z></Point>
-						<Point><X>97</X><Y>-38</Y><Z>0</Z></Point>
+						<Point><X>116</X><Y>-85</Y><Z>0</Z></Point>
+						<Point><X>116</X><Y>-60</Y><Z>0</Z></Point>
+						<Point><X>97</X><Y>-36</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1746660666526</Id>
 					<Name><![CDATA[wall8]]></Name>
-					<X>750</X><Y>239</Y>
+					<X>750</X><Y>249</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>-49</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>35</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>10</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>60</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>115</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>90</X><Y>-74</Y><Z>0</Z></Point>
-						<Point><X>21</X><Y>-74</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>-59</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>35</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>10</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>60</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>117</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>92</X><Y>-84</Y><Z>0</Z></Point>
+						<Point><X>23</X><Y>-84</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1746660707538</Id>
 					<Name><![CDATA[wall11]]></Name>
-					<X>750</X><Y>111</Y>
+					<X>750</X><Y>118</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0.31599999999999995</X><Y>-24.998</Y><Z>0</Z></Point>
-						<Point><X>1</X><Y>-79</Y><Z>0</Z></Point>
-						<Point><X>0.6839999999999999</X><Y>-54.001999999999995</Y><Z>0</Z></Point>
-						<Point><X>26</X><Y>-79</Y><Z>0</Z></Point>
-						<Point><X>117</X><Y>-79</Y><Z>0</Z></Point>
-						<Point><X>92</X><Y>-79</Y><Z>0</Z></Point>
-						<Point><X>22</X><Y>-79</Y><Z>0</Z></Point>
+						<Point><X>0.291</X><Y>-24.998</Y><Z>0</Z></Point>
+						<Point><X>1</X><Y>-86</Y><Z>0</Z></Point>
+						<Point><X>0.709</X><Y>-61.002</Y><Z>0</Z></Point>
+						<Point><X>26</X><Y>-86</Y><Z>0</Z></Point>
+						<Point><X>117</X><Y>-86</Y><Z>0</Z></Point>
+						<Point><X>92</X><Y>-86</Y><Z>0</Z></Point>
+						<Point><X>22</X><Y>-86</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1746660718367</Id>
 					<Name><![CDATA[wall12]]></Name>
-					<X>867</X><Y>66</Y>
+					<X>867</X><Y>63</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>82</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>57</Y><Z>0</Z></Point>
-						<Point><X>-24.999</X><Y>82.214</Y><Z>0</Z></Point>
-						<Point><X>-117</X><Y>83</Y><Z>0</Z></Point>
-						<Point><X>-92.001</X><Y>82.786</Y><Z>0</Z></Point>
-						<Point><X>-64</X><Y>82</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>85</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>60</Y><Z>0</Z></Point>
+						<Point><X>-24.999</X><Y>85.214</Y><Z>0</Z></Point>
+						<Point><X>-117</X><Y>86</Y><Z>0</Z></Point>
+						<Point><X>-92.001</X><Y>85.786</Y><Z>0</Z></Point>
+						<Point><X>-64</X><Y>85</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<TargetLine>
@@ -9873,11 +9885,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9910,11 +9922,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9935,11 +9947,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9960,11 +9972,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -9988,11 +10000,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10013,11 +10025,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10053,11 +10065,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10078,11 +10090,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10103,11 +10115,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10118,64 +10130,6 @@
 						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
-				<Figure3D>
-					<Id>1747096196899</Id>
-					<Name><![CDATA[reseption_3]]></Name>
-					<X>780</X><Y>380</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>780</X><Y>380</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<ResourceReference>
-						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
-						<ClassName><![CDATA[3d/reseption_1.dae]]></ClassName>
-					</ResourceReference>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[MA_material]]></Name>
-							<OriginalColor>-657931</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>2.5</Scale>
-					<Rotation>90.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-					<InternalLighting>OFF</InternalLighting>
-					<IgnoreSceneLights>false</IgnoreSceneLights>
-</Figure3D>
-				<Figure3D>
-					<Id>1747096202486</Id>
-					<Name><![CDATA[reseption_4]]></Name>
-					<X>660</X><Y>650</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>660</X><Y>650</Y><Z>0</Z>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<ResourceReference>
-						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
-						<ClassName><![CDATA[3d/reseption_1.dae]]></ClassName>
-					</ResourceReference>
-					<ColorTable>
-						<ColorMapping>
-							<Name><![CDATA[MA_material]]></Name>
-							<OriginalColor>-657931</OriginalColor>
-						</ColorMapping>
-					</ColorTable>
-					<AutoScale>true</AutoScale>
-					<Scale>2.5</Scale>
-					<Rotation>90.0</Rotation>
-					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
-					<ApplyShading>true</ApplyShading>
-					<InternalLighting>OFF</InternalLighting>
-					<IgnoreSceneLights>false</IgnoreSceneLights>
-</Figure3D>
 				<Wall>
 					<Id>1747096829824</Id>
 					<Name><![CDATA[wall1]]></Name>
@@ -10186,11 +10140,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10199,37 +10153,37 @@
 						<Point><X>115</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>90</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>115</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>115</X><Y>75</Y><Z>0</Z></Point>
-						<Point><X>115</X><Y>50</Y><Z>0</Z></Point>
-						<Point><X>95</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>115</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>115</X><Y>59</Y><Z>0</Z></Point>
+						<Point><X>95</X><Y>9</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
 					<Id>1747097092470</Id>
 					<Name><![CDATA[wall2]]></Name>
-					<X>449</X><Y>65</Y>
+					<X>449</X><Y>64</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>-25</Y><Z>0</Z></Point>
 						<Point><X>0</X><Y>25</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>83</Y><Z>0</Z></Point>
-						<Point><X>0</X><Y>58</Y><Z>0</Z></Point>
-						<Point><X>25</X><Y>83</Y><Z>0</Z></Point>
-						<Point><X>116</X><Y>83</Y><Z>0</Z></Point>
-						<Point><X>91</X><Y>83</Y><Z>0</Z></Point>
-						<Point><X>-20</X><Y>83</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>0</X><Y>59</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>117</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>92</X><Y>84</Y><Z>0</Z></Point>
+						<Point><X>-19</X><Y>84</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -10242,11 +10196,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10267,11 +10221,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10292,11 +10246,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10317,11 +10271,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10342,11 +10296,11 @@
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
 					<Z>0</Z>
-					<LineColor>-3308225</LineColor>
+					<LineColor>-16777216</LineColor>
 					<LineWidth>2</LineWidth>
 					<LineMaterial>null</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10369,9 +10323,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10397,9 +10351,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10413,7 +10367,7 @@
 				<Wall>
 					<Id>1747097745884</Id>
 					<Name><![CDATA[wall25]]></Name>
-					<X>360</X><Y>195</Y>
+					<X>360</X><Y>196</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -10422,9 +10376,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10450,9 +10404,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10478,9 +10432,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -10503,9 +10457,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -11236,7 +11190,7 @@
 				<Wall>
 					<Id>1747100621242</Id>
 					<Name><![CDATA[wall29]]></Name>
-					<X>325</X><Y>155</Y>
+					<X>326</X><Y>155</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -11245,17 +11199,17 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>-25</X><Y>0</Y><Z>0</Z></Point>
 						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>35</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>10</X><Y>0</Y><Z>0</Z></Point>
-						<Point><X>70</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>25</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>33</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>8</X><Y>0</Y><Z>0</Z></Point>
+						<Point><X>8</X><Y>0</Y><Z>0</Z></Point>
 					</Points>
 				</Wall>
 				<Wall>
@@ -11270,9 +11224,9 @@
 					<Z>0</Z>
 					<LineColor>-3308225</LineColor>
 					<LineWidth>2</LineWidth>
-					<LineMaterial>null</LineMaterial>
+					<LineMaterial>floorLino</LineMaterial>
 					<FillingType>HATCHED_AREA</FillingType>
-					<ZHeight>20</ZHeight>
+					<ZHeight>25</ZHeight>
 					<Closed>false</Closed>
 					<Points>
 						<Point><X>0</X><Y>0</Y><Z>0</Z></Point>
@@ -12331,7 +12285,7 @@
 				<RectangleWall>
 					<Id>1747102738023</Id>
 					<Name><![CDATA[wall31]]></Name>
-					<X>760</X><Y>370</Y>
+					<X>759</X><Y>370</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12350,7 +12304,7 @@
 				<RectangleWall>
 					<Id>1747102806607</Id>
 					<Name><![CDATA[wall33]]></Name>
-					<X>585</X><Y>640</Y>
+					<X>589</X><Y>639</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>false</PresentationFlag>
@@ -12565,7 +12519,7 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1747104086022</Id>
 					<Name><![CDATA[ambilbarang]]></Name>
-					<X>595</X><Y>590</Y>
+					<X>623</X><Y>589</Y>
 					<Label><X>33.5</X><Y>62.14</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12651,7 +12605,7 @@
 				<QueueLine>
 					<Id>1747104086024</Id>
 					<Name><![CDATA[queueLine21]]></Name>
-					<X>595</X><Y>590</Y>
+					<X>623</X><Y>589</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12677,7 +12631,7 @@
 				<ServicePoint>
 					<Id>1747104086028</Id>
 					<Name><![CDATA[servicePoint25]]></Name>
-					<X>595</X><Y>634.87</Y>
+					<X>623</X><Y>633.87</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -12705,13 +12659,13 @@
 				<Figure3D>
 					<Id>1747104148280</Id>
 					<Name><![CDATA[table]]></Name>
-					<X>610</X><Y>650</Y>
+					<X>625</X><Y>649</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>false</ShowLabel>
 					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<X>610</X><Y>650</Y><Z>0</Z>
+					<X>625</X><Y>649</Y><Z>0</Z>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<ResourceReference>
 						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
@@ -12728,7 +12682,7 @@
 						</ColorMapping>
 					</ColorTable>
 					<AutoScale>true</AutoScale>
-					<Scale>1.9</Scale>
+					<Scale>1.5</Scale>
 					<Rotation>0.0</Rotation>
 					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
 					<ApplyShading>true</ApplyShading>
@@ -12781,7 +12735,7 @@
 					<LineColor>-16744448</LineColor>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>0</X><Y>33</Y></Point>
+						<Point><X>0</X><Y>30</Y></Point>
 					</Points>
 				</TargetLine>
 				<TargetLine>
@@ -12988,7 +12942,7 @@
 					<ServiceColor>-16744448</ServiceColor>
 					<Id>1747266932553</Id>
 					<Name><![CDATA[letakbarang]]></Name>
-					<X>639.385</X><Y>597.201</Y>
+					<X>681.385</X><Y>596.201</Y>
 					<Label><X>33.5</X><Y>62.14</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13074,7 +13028,7 @@
 				<QueueLine>
 					<Id>1747266932555</Id>
 					<Name><![CDATA[queueLine22]]></Name>
-					<X>620</X><Y>590</Y>
+					<X>662</X><Y>589</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13100,7 +13054,7 @@
 				<ServicePoint>
 					<Id>1747266932557</Id>
 					<Name><![CDATA[servicePoint26]]></Name>
-					<X>620</X><Y>634.87</Y>
+					<X>662</X><Y>633.87</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -13125,6 +13079,653 @@
 					<WaitForExit>false</WaitForExit>
 					<QueueChoicePolicy>CLOSEST_QUEUE_STRICT</QueueChoicePolicy>
 				</ServiceWithLine>
+				<Figure3D>
+					<Id>1747273459987</Id>
+					<Name><![CDATA[officer]]></Name>
+					<X>779</X><Y>385</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>779</X><Y>385</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/officer.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_004]]></Name>
+							<OriginalColor>-3361146</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_D17]]></Name>
+							<OriginalColor>-10071789</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_007]]></Name>
+							<OriginalColor>-13027015</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_D21]]></Name>
+							<OriginalColor>-13425408</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_005]]></Name>
+							<OriginalColor>-9342607</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Color_006]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_Shape_003]]></Name>
+							<OriginalColor>-3355444</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747273547170</Id>
+					<Name><![CDATA[locker]]></Name>
+					<X>779</X><Y>393</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>779</X><Y>393</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/locker.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_11]]></Name>
+							<OriginalColor>-3618616</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[MA_material_5]]></Name>
+							<OriginalColor>-10526881</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>0.75</Scale>
+					<Rotation>180.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747273662240</Id>
+					<Name><![CDATA[door]]></Name>
+					<X>867</X><Y>188</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>867</X><Y>188</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747273898996</Id>
+					<Name><![CDATA[door2]]></Name>
+					<X>867</X><Y>174</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>867</X><Y>174</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274029636</Id>
+					<Name><![CDATA[door1]]></Name>
+					<X>750</X><Y>271</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>750</X><Y>271</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274029651</Id>
+					<Name><![CDATA[door3]]></Name>
+					<X>750</X><Y>257</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>750</X><Y>257</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274121444</Id>
+					<Name><![CDATA[door4]]></Name>
+					<X>750</X><Y>140</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>750</X><Y>140</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274121462</Id>
+					<Name><![CDATA[door5]]></Name>
+					<X>750</X><Y>126</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>750</X><Y>126</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274167939</Id>
+					<Name><![CDATA[door6]]></Name>
+					<X>867</X><Y>55</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>867</X><Y>55</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274167956</Id>
+					<Name><![CDATA[door7]]></Name>
+					<X>867</X><Y>41</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>867</X><Y>41</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274216678</Id>
+					<Name><![CDATA[door8]]></Name>
+					<X>566</X><Y>271</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>566</X><Y>271</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274216695</Id>
+					<Name><![CDATA[door9]]></Name>
+					<X>566</X><Y>257</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>566</X><Y>257</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274252194</Id>
+					<Name><![CDATA[door10]]></Name>
+					<X>450</X><Y>188</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>450</X><Y>188</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274252210</Id>
+					<Name><![CDATA[door11]]></Name>
+					<X>450</X><Y>174</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>450</X><Y>174</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274290791</Id>
+					<Name><![CDATA[door12]]></Name>
+					<X>449.5</X><Y>56.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>449.5</X><Y>56.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274290805</Id>
+					<Name><![CDATA[door13]]></Name>
+					<X>449.5</X><Y>42.5</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>449.5</X><Y>42.5</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274323627</Id>
+					<Name><![CDATA[door14]]></Name>
+					<X>566</X><Y>139</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>566</X><Y>139</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>270.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747274323650</Id>
+					<Name><![CDATA[door15]]></Name>
+					<X>566</X><Y>125</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>566</X><Y>125</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/door.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-1</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.0</Scale>
+					<Rotation>90.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
+				<Figure3D>
+					<Id>1747275083291</Id>
+					<Name><![CDATA[table1]]></Name>
+					<X>663</X><Y>649</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+					<X>663</X><Y>649</Y><Z>0</Z>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<ResourceReference>
+						<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
+						<ClassName><![CDATA[3d/table.dae]]></ClassName>
+					</ResourceReference>
+					<ColorTable>
+						<ColorMapping>
+							<Name><![CDATA[material0]]></Name>
+							<OriginalColor>-14391175</OriginalColor>
+						</ColorMapping>
+						<ColorMapping>
+							<Name><![CDATA[material1]]></Name>
+							<OriginalColor>-11184811</OriginalColor>
+						</ColorMapping>
+					</ColorTable>
+					<AutoScale>true</AutoScale>
+					<Scale>1.5</Scale>
+					<Rotation>0.0</Rotation>
+					<AxisOrder>XYZ_AXIS_ORDER</AxisOrder>
+					<ApplyShading>true</ApplyShading>
+					<InternalLighting>OFF</InternalLighting>
+					<IgnoreSceneLights>false</IgnoreSceneLights>
+</Figure3D>
 			</Presentation>
 
 				</Level>
@@ -13439,12 +14040,6 @@
 	</Experiments>
 	<ModelResources>
 		<Resource>
-			<Id>1746636371207</Id>
-			<Path><![CDATA[3d/reseption_1.dae]]></Path>
-			<ReferencedFromUserCode>false</ReferencedFromUserCode>
-			<Location>FILE_SYSTEM</Location>
-		</Resource>
-		<Resource>
 			<Id>1747095036168</Id>
 			<Path><![CDATA[3d/person.dae]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
@@ -13483,6 +14078,24 @@
 		<Resource>
 			<Id>1747119257282</Id>
 			<Path><![CDATA[3d/woman_1.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Id>1747272711311</Id>
+			<Path><![CDATA[3d/door.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Id>1747273462585</Id>
+			<Path><![CDATA[3d/officer.dae]]></Path>
+			<ReferencedFromUserCode>false</ReferencedFromUserCode>
+			<Location>FILE_SYSTEM</Location>
+		</Resource>
+		<Resource>
+			<Id>1747273550061</Id>
+			<Path><![CDATA[3d/locker.dae]]></Path>
 			<ReferencedFromUserCode>false</ReferencedFromUserCode>
 			<Location>FILE_SYSTEM</Location>
 		</Resource>
