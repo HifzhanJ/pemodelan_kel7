@@ -2323,7 +2323,7 @@
 							<Value Class="EntityCodeValue">
 								<IsAgentEntity>true</IsAgentEntity>
 								<EntityEmbeddedObject>
-									<Id>1747272712109</Id>
+									<Id>1747276116755</Id>
 									<ActiveObjectClass>
 										<PackageName><![CDATA[pemodelan_kel7]]></PackageName>
 										<ClassName><![CDATA[orang]]></ClassName>
@@ -2354,7 +2354,7 @@
 									</LocationNameCode>
 									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
 									<InitializationDatabaseTableQuery>
-										<Id>1747272712108</Id>
+										<Id>1747276116754</Id>
 										<TableReference>
 										</TableReference>
 									</InitializationDatabaseTableQuery>
